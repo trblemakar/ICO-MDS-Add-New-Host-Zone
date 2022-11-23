@@ -16,8 +16,13 @@ Activate MDS Zoneset
 Commit MDS Zone Database
 Copy MDS Running to Startup
 
+To execute the workflow, the MDS Switches must be connected to Intersight by adding them as a target.
+https://intersight.com/help/saas/getting_started/claim_targets#minimum_permissions_for_targets
+
 The required inputs are: Zone Name, MDS Fabric A, VSAN Fabric A, WWPN Fabric A, MDS Fabric B, VSAN Fabric B and WWPN Fabric B.
 
 <img width="913" alt="Screen Shot 2022-11-23 at 8 57 37 AM" src="https://user-images.githubusercontent.com/22679823/203569569-929218c5-6e02-464e-ad19-2ab5c8fe0df0.png">
+
+During execution the workflow will gather the active zoneset name for the given VSAN ID.  This requires an active zoneset to be present and also ensures the new zone is added to the active zoneset and database.  This assumes enhanced zoning mode [recommended] is enabled for the given VSAN ID.
 
 <img width="1514" alt="Screen Shot 2022-11-23 at 8 58 56 AM" src="https://user-images.githubusercontent.com/22679823/203569618-35dbfd33-47ad-4ca8-8bf7-47427e9f2422.png">
