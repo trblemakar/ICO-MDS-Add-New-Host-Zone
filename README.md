@@ -4,6 +4,8 @@ This workflow automates the tasks required to zone a new host to an MDS based SA
 It leverages Intersight Cloud Orchestrator [ICO] and tasks that invoke web API requests to the MDS.
 The included tasks can be used to build additional workflows e.g. add storage targets [wwpn or device-alias] to host zone.
 
+Use as is or modify to your needs.  Test in a lab environment before using in production.
+
 Included data types:
 Fibre Channel Device WWPN
 
