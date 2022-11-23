@@ -22,6 +22,7 @@ To execute the workflow, the MDS Switches must be connected to Intersight by add
 https://intersight.com/help/saas/getting_started/claim_targets#minimum_permissions_for_targets
 
 The required inputs are: Zone Name, MDS Fabric A, VSAN Fabric A, WWPN Fabric A, MDS Fabric B, VSAN Fabric B and WWPN Fabric B.
+Upon execution the workflow will create new device-alias based on the inputted host wwpns and use these device-alias as the zone member type.
 
 <img width="913" alt="Screen Shot 2022-11-23 at 8 57 37 AM" src="https://user-images.githubusercontent.com/22679823/203569569-929218c5-6e02-464e-ad19-2ab5c8fe0df0.png">
 
