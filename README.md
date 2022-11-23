@@ -29,3 +29,5 @@ Upon execution the workflow will create a new device-alias per fabric based on t
 During execution the workflow will gather the active zoneset name for the given VSAN ID.  This requires an active zoneset to be present and also ensures the new zone is added to the active zoneset and database.  This workflow assumes enhanced zoning mode [recommended] is enabled for the given VSAN ID.
 
 <img width="1514" alt="Screen Shot 2022-11-23 at 8 58 56 AM" src="https://user-images.githubusercontent.com/22679823/203569618-35dbfd33-47ad-4ca8-8bf7-47427e9f2422.png">
+
+Rollback is supported and will remove the device-alias, zone and remove it from the active zoneset.
