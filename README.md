@@ -10,12 +10,12 @@ Included data types:
 Fibre Channel Device WWPN
 
 Included tasks:
-Get MDS Active Zoneset Name
-Add MDS Device Alias
-Add Zone to MDS
-Add MDS Zone to Zoneset
-Activate MDS Zoneset
-Commit MDS Zone Database
+Get MDS Active Zoneset Name,
+Add MDS Device Alias,
+Add Zone to MDS,
+Add MDS Zone to Zoneset,
+Activate MDS Zoneset,
+Commit MDS Zone Database and 
 Copy MDS Running to Startup
 
 To execute the workflow, the MDS Switches must be connected to Intersight by adding them as a target.
