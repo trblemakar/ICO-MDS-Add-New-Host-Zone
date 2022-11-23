@@ -18,7 +18,7 @@ Activate MDS Zoneset,
 Commit MDS Zone Database and 
 Copy MDS Running to Startup
 
-To execute the workflow, the MDS Switches must be connected to Intersight by adding them as a target.
+To execute the workflow, the MDS Switches must be connected to Intersight by adding them as a target [requires Intersight assist].
 https://intersight.com/help/saas/getting_started/claim_targets#minimum_permissions_for_targets
 
 The required inputs are: Zone Name, MDS Fabric A, VSAN Fabric A, WWPN Fabric A, MDS Fabric B, VSAN Fabric B and WWPN Fabric B.
