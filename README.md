@@ -1,4 +1,4 @@
-Automates MDS SAN Zoning with Intersight Cloud Orchestrator [ICO]
+**Automates MDS SAN Zoning with Intersight Cloud Orchestrator [ICO]**
 
 This workflow automates the tasks required to zone a new host to an MDS based SAN fabric.
 It leverages Intersight Cloud Orchestrator [ICO] and tasks that invoke web API requests to the MDS.
